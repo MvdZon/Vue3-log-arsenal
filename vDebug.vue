@@ -32,8 +32,8 @@ export default {
     name: 'debug-pane',
     data(){
         return {
-            loggingIsEnabled: true,
-            dataViewerIsEnabled: true
+            loggingIsEnabled: false,
+            dataViewerIsEnabled: false
         }
     },
     watch: {
