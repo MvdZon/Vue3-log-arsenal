@@ -1,6 +1,6 @@
 {
   "name": "vue-debug-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tools to improve the debugging experience of Vue applications",
   "main": "index.js",
   "scripts": {

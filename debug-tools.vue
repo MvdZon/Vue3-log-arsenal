@@ -29,11 +29,11 @@
 
 <script>
 export default {
-    name: 'debug-pane',
+    name: 'debug-tool',
     data(){
         return {
-            loggingIsEnabled: false,
-            dataViewerIsEnabled: false
+            loggingIsEnabled: true,
+            dataViewerIsEnabled: true
         }
     },
     watch: {

@@ -1,18 +1,20 @@
-import vDebug from './vDebug.vue';
-import logging from './logging.js'
-import componentTooltip from './componentTooltip.js'
+import debugTools from './debug-tools.vue';
+import dataLogger from './data-logger.js'
+import logDirective from './log-directive.js';
+import componentViewer from './component-viewer.js'
 
 const plugin = {
     install(Vue) {
         if(process.env.NODE_ENV === "development") {
-            Vue.mixin(logging);
-            Vue.mixin(componentTooltip)
+            Vue.mixin(dataLogger);
+            Vue.mixin(componentViewer)
         }
 
-        Vue.component('vDebug', vDebug);
+        Vue.component('vDebugTools', debugTools);
+        Vue.directive('log', logDirective);
     }
 };
 
 export default plugin;
 
-export { vDebug };
+export { debugTools };
