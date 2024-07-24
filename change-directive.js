@@ -14,6 +14,9 @@ function logUpdate(el, binding, vnode) {
 }
 
 export default {
+    updated(el, binding, vnode) {
+        logUpdate(el, binding, vnode)
+    },
     mounted(el, binding, vnode) {
         logUpdate(el, binding, vnode)
     }

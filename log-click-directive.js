@@ -14,7 +14,10 @@ function logUpdate(el, binding, vnode) {
 }
 
 export default {
-    mounted(el, binding, vnode) {
-        logUpdate(el, binding, vnode)
+    beforeMount(el, binding, vnode) {
+        el.addEventListener('click', () => logUpdate(el, binding, vnode))
+    },
+    unmounted(el, binding, vnode) {
+        el.addEventListener('click', () => logUpdate(el, binding, vnode))
     }
 }

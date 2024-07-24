@@ -1,20 +1,11 @@
-import debugTools from './debug-tools.vue';
-import dataLogger from './data-logger.js'
 import logDirective from './log-directive.js';
-import componentViewer from './component-viewer.js'
+import logClickDirective from './log-click-directive.js';
+import changeDirective from './change-directive.js';
 
-const plugin = {
+export default {
     install(Vue) {
-        if(process.env.NODE_ENV === "development") {
-            Vue.mixin(dataLogger);
-            Vue.mixin(componentViewer)
-        }
-
-        Vue.component('vDebugTools', debugTools);
         Vue.directive('log', logDirective);
+        Vue.directive('log-click', logClickDirective);
+        Vue.directive('change', changeDirective);
     }
 };
-
-export default plugin;
-
-export { debugTools };
