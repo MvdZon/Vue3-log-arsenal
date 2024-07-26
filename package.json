@@ -1,21 +1,21 @@
 {
-  "name": "vue-debug-tools",
-  "version": "1.0.1",
-  "description": "Tools to improve the debugging experience of Vue applications",
+  "name": "vue-log-arsenal",
+  "version": "0.1.0",
+  "description": "An arsenal of logging directives to improve the debugging experience of Vue3 applications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MvdZon/Vue-debug-tools.git"
+    "url": "git+https://github.com/MvdZon/Vue3-log-arsenal.git"
   },
   "author": "Matthijs van der Zon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MvdZon/Vue-debug-tools/issues"
+    "url": "https://github.com/MvdZon/Vue3-log-arsenal/issues"
   },
-  "homepage": "https://github.com/MvdZon/Vue-debug-tools#readme",
+  "homepage": "https://github.com/MvdZon/Vue3-log-arsenal#readme",
   "dependencies": {
     "vue": "^3.4.31"
   }
