@@ -13,7 +13,9 @@
 ## Installation
 
 ```sh
-import logArsenal from 'vue3-log-arsenal'
+import { createApp } from 'vue'
+import App from './App.vue'
+import logArsenal from 'vue-log-arsenal'
 
 const app = createApp(App)
 app.use(logArsenal)
