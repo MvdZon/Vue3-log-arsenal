@@ -6,7 +6,7 @@
 - v-log: Log all properties and computed values in this component.
 - v-log.variable: Log the property or computed value with the given name.
 - v-log-change: Log all properties and computed values in this component when the value changes.
-- v-log-change.variable: Log the property or computed value with the given name when the value changes.
+- v-log-change.variable: Log the property or computed value with the given name when a value changes.
 - v-log-click: When clicked on this element, log all properties and computed values in this component.
 - v-log-click.variable: When clicked on this element, log the property or computed value with the given name.
 
