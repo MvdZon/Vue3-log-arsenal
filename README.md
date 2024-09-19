@@ -20,6 +20,7 @@ import logArsenal from 'vue-log-arsenal'
 const app = createApp(App)
 app.use(logArsenal)
 app.mount('#app')
+```
 
 ## Example
 
@@ -30,3 +31,4 @@ app.mount('#app')
         v-log.otherObj
     ></p>
 </div>
+```

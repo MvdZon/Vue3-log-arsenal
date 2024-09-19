@@ -1,6 +1,6 @@
 {
   "name": "vue-log-arsenal",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "An arsenal of logging directives to improve the debugging experience of Vue3 applications",
   "main": "index.js",
   "scripts": {
