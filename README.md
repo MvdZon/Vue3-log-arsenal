@@ -20,3 +20,13 @@ import logArsenal from 'vue-log-arsenal'
 const app = createApp(App)
 app.use(logArsenal)
 app.mount('#app')
+
+## Example
+
+```sh
+<div v-log-click.foobar>
+    <p 
+        v-if="blabla === true"
+        v-log.otherObj
+    ></p>
+</div>
