@@ -6,6 +6,6 @@ export default {
     install(Vue) {
         Vue.directive('log', logDirective);
         Vue.directive('log-click', logClickDirective);
-        Vue.directive('change', changeDirective);
+        Vue.directive('log-change', changeDirective);
     }
 };
