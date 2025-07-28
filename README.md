@@ -7,11 +7,11 @@
 | Directive | Description |
 |----------|-------------|
 | `v-log` | Logs all reactive and computed properties in the component. |
-| `v-log:propertyName` | Logs the specified reactive property or computed value. |
+| `v-log.propertyName` | Logs the specified reactive property or computed value. |
 | `v-log-change` | Logs all reactive and computed properties whenever a value within the component changes. |
-| `v-log-change:propertyName` | Logs the specified property or computed value when its value changes. |
+| `v-log-change.propertyName` | Logs the specified property or computed value when its value changes. |
 | `v-log-click` | Logs all reactive and computed properties in the component when the element with this directive is clicked. |
-| `v-log-click:propertyName` | Logs the specified property or computed value when the element is clicked. |
+| `v-log-click.propertyName` | Logs the specified property or computed value when the element is clicked. |
 
 ## Installation
 > npm install vue-log-arsenal
