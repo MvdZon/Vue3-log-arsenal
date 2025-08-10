@@ -13,6 +13,9 @@
 | `v-log-click` | Logs all reactive and computed properties in the component when the element with this directive is clicked. |
 | `v-log-click.propertyName` | Logs the specified property or computed value when the element is clicked. |
 
+
+[Vue Log Arsenal in action](https://gifyu.com/image/bNdcu)
+
 ## Installation
 > npm install vue-log-arsenal
 
@@ -54,5 +57,3 @@ Logs all reactive and computed properties of this component when 'blabla' is tru
     </p>
 </div>
 ```
-
-[Vue Log Arsenal in action](https://gifyu.com/image/bNdcu)
