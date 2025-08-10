@@ -54,3 +54,5 @@ Logs all reactive and computed properties of this component when 'blabla' is tru
     </p>
 </div>
 ```
+
+[Vue Log Arsenal in action](https://gifyu.com/image/bNdcu)
