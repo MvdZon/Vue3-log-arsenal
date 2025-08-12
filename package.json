@@ -1,6 +1,6 @@
 {
   "name": "vue-log-arsenal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An arsenal of logging directives to improve the debugging experience of Vue3 applications",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/MvdZon/Vue3-log-arsenal#readme",
   "dependencies": {
     "vue": "^3.4.31"
-  }
+  },
+  "keywords": ["vue", "vue3", "logging", "debug", "directives"]
 }
