@@ -6,8 +6,6 @@ In many Vue projects, you can end up spending more time than you’d like diggin
 
 Vue Log Arsenal solves that by letting you drop a directive in your template and get the data you need right in the console — no more messy `console.log` calls scattered through your code.
 
----
-
 ## Directives
 
 | Directive | Description |
@@ -18,8 +16,6 @@ Vue Log Arsenal solves that by letting you drop a directive in your template and
 | `v-log-change.propertyName` | Logs the specified property or computed value when its value changes. |
 | `v-log-click` | Logs all reactive and computed properties in the component when the element is clicked. |
 | `v-log-click.propertyName` | Logs the specified property or computed value when the element is clicked. |
-
----
 
 ## Installation
 
@@ -81,7 +77,14 @@ When clicked, this logs all reactive and computed properties in the component so
 
 ![Vue Log Arsenal in action](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ad1qskexqg5r1ihdaqn4.gif)
 
----
+## Contributing
+
+This project is currently not open to external contributions.  
+Bug reports and feature requests are welcome via the [GitHub issues page](https://github.com/MvdZon/Vue3-log-arsenal/issues).
+
+## License
+Released under **CC0-1.0** (public domain). No attribution required.  
+You may use this in open source or proprietary software, including commercial projects.
 
 ## Links
 

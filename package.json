@@ -1,6 +1,6 @@
 {
   "name": "vue-log-arsenal",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "An arsenal of logging directives to improve the debugging experience of Vue3 applications",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/MvdZon/Vue3-log-arsenal.git"
   },
   "author": "Matthijs van der Zon",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/MvdZon/Vue3-log-arsenal/issues"
   },
